@@ -12,7 +12,7 @@ class Interfaz {
         this.imprimirCategorias();
     }
 
-    // Imprimir categorias
+    // Imprimir categorias en el option
     imprimirCategorias() {
         const listaCategorias = eventbrite.obtenerCategorias()
             .then(categorias => {
